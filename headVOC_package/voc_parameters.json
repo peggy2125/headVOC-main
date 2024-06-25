@@ -1,0 +1,114 @@
+{
+    "standard_conditions": {
+        "temperature": 298.15,
+        "pressure": 1,
+        "ideal_gas_constant": 0.0821,
+        "total_pressure": 1,
+        "satp_volume": 24.47
+    },
+    "water": {
+        "volume": 0.05,
+        "density": 1000,
+        "molecular_weight": 18.015,
+        "vapor_pressure": 0.031
+    },
+    "acetone": {
+        "ppm": [
+            0.25,
+            0.5,
+            0.75,
+            1.0
+        ],
+        "density": 791,
+        "molecular_weight": 58.08,
+        "vapor_pressure": 0.304
+    },
+    "ethanol": {
+        "ppm": [
+            0.25,
+            0.5,
+            0.75,
+            1.0
+        ],
+        "density": 791,
+        "molecular_weight": 46.068,
+        "vapor_pressure": 0.0773074
+    },
+    "2-propanol": {
+        "ppm": [
+            0.25,
+            0.5,
+            0.75,
+            1.0
+        ],
+        "density": 785,
+        "molecular_weight": 60.1,
+        "vapor_pressure": 0.057428
+    },
+    "acetic_acid": {
+        "ppm": [
+            0.25,
+            0.5,
+            0.75,
+            1.0
+        ],
+        "density": 0,
+        "molecular_weight": 0,
+        "vapor_pressure": 0.0208649
+    },
+    "m-xylene": {
+        "ppm": [
+            0.25,
+            0.5,
+            0.75,
+            1.0
+        ],
+        "density": 0,
+        "molecular_weight": 0,
+        "vapor_pressure": 0.0108865
+    },
+    "hexane": {
+        "ppm": [
+            0.25,
+            0.5,
+            0.75,
+            1.0
+        ],
+        "density": 0,
+        "molecular_weight": 0,
+        "vapor_pressure": 0.198946
+    },
+    "methanol": {
+        "ppm": [
+            0.25,
+            0.5,
+            0.75,
+            1.0
+        ],
+        "density": 0,
+        "molecular_weight": 0,
+        "vapor_pressure": 0.16694
+    },
+    "tetrahydrofuran": {
+        "ppm": [
+            0.25,
+            0.5,
+            0.75,
+            1.0
+        ],
+        "density": 0,
+        "molecular_weight": 0,
+        "vapor_pressure": 0.213392
+    },
+    "cyclohexane": {
+        "ppm": [
+            0.25,
+            0.5,
+            0.75,
+            1.0
+        ],
+        "density": 0,
+        "molecular_weight": 0,
+        "vapor_pressure": 0.128385
+    }
+}
