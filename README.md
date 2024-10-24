@@ -13,3 +13,21 @@ Vapor pressure can be calculated with antoine equation with the following calcul
 http://ddbonline.ddbst.com/AntoineCalculation/AntoineCalculationCGI.exe
 - Vapor pressure@25 Degree C: atm
 - Ideal gas constant: (L*atm) / (K*mol)
+
+
+
+
+## c2v_headVOC 
+def部分為變數轉換
+function: calc_v2c(voc_specie, dilute_med:str)
+voc_specie、dilute_med為一個變數，分別為要從json檔中抓取的voc名稱
+因此當在function括弧中輸入不同的string(名稱voc)時，即可運算不同voc
+
+
+## v2c_headVOC
+def部分為變數轉換
+main function中，針對voc以先前定義的函數取得之摩爾分率，最後根據拉伍爾定律計算出voc濃度
+
+## mix.py
+
+

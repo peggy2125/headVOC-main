@@ -98,7 +98,7 @@ def calc_v2c(voc_specie, dilute_med:str):
         n1 = molFractionToMole(X, diluteMoles)
         mass = moleToMass(n1, vocMW)
         vol = massToVol(mass, vocRho)
-        print(f"{vol*1000000} ul of acetone for {PPM}PPM with {diluteVol*1000}ml of {dilute_med}")
+        print(f"{vol*1000000} ul of {voc_specie} for {PPM}PPM with {diluteVol*1000}ml of {dilute_med}")
 
     # # Calculate concentration of acetone in moles
     # cM = PPMtoConcMole(1, vocMW)
@@ -111,4 +111,4 @@ def calc_v2c(voc_specie, dilute_med:str):
     # print(f"{vol} L of acetone is required to reach 1PPM with 50ml of water")
 
 if __name__ == "__main__":
-    calc_v2c('acetone','water')
+    calc_v2c('2-propanol','water')
